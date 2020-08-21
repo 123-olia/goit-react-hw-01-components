@@ -1,0 +1,90 @@
+.profile {
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 1px 3px 0px rgba(191, 205, 222, 0.75);
+  width: 250px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 255px;
+  padding: 30px 0;
+}
+
+.avatar {
+  display: block;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  background-color: rgb(0, 0, 0);
+  box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+  width: 99px;
+  height: 99px;
+}
+
+.name {
+  font-size: 18px;
+  font-family: "Lato";
+  color: rgb(18, 34, 54);
+  font-weight: bold;
+  line-height: 1.778;
+  text-align: center;
+  margin: 0;
+}
+
+.tag {
+  font-size: 14px;
+  font-family: "Lato";
+  color: rgb(118, 134, 150);
+  line-height: 2.286;
+  text-align: center;
+  margin: 0;
+}
+
+.location {
+  font-size: 14px;
+  font-family: "Lato";
+  color: rgb(118, 134, 150);
+  line-height: 2.286;
+  text-align: center;
+  margin: 0;
+}
+
+.stats {
+  border: 1px solid #e4e9f0;
+  background-color: rgb(243, 246, 249);
+  height: 80px;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+}
+
+.label {
+  font-size: 12px;
+  font-family: "Lato";
+  color: rgb(118, 134, 150);
+  line-height: 2.667;
+  display: block;
+}
+
+.quantity {
+  font-size: 14px;
+  font-weight: 900;
+  font-family: "Lato";
+  color: rgb(31, 51, 73);
+  line-height: 2.286;
+  text-align: center;
+}
+
+.statsItem:not(:last-child) {
+  padding: 10px;
+  margin: 0;
+  border-right: 1px solid #e4e9f0;
+}

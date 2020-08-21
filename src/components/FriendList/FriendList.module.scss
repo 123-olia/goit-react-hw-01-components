@@ -1,0 +1,45 @@
+// Friend-List-Item
+
+.item {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  box-shadow: 0 0 7px #5f5d5d;
+  margin: 10px;
+}
+
+.avatar {
+  display: inline-block;
+  border-radius: 20px;
+  width: 100px;
+  padding: 5px;
+}
+
+.name {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.status {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+
+.statusOn {
+  background-color: green;
+}
+
+.statusOff {
+  background-color: red;
+}
+
+// Friend-List
+
+.list {
+  list-style: none;
+  margin-bottom: 150px;
+}

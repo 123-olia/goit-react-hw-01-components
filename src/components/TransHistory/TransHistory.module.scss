@@ -1,0 +1,30 @@
+.trans_history {
+  border: 1px solid #cac7c7;
+  border-collapse: collapse;
+  margin: 0 auto;
+  box-shadow: 0 0 7px #cac7c7;
+}
+
+tr {
+  border: 1px solid #cac7c7;
+}
+
+th {
+  background-color: rgb(87, 201, 236);
+  color: #fff;
+  text-transform: uppercase;
+}
+
+td,
+th {
+  border: 1px solid #cac7c7;
+  padding: 10px 50px;
+}
+
+.typeTrans {
+  text-transform: capitalize;
+}
+
+.line:nth-child(2n + 1) {
+  background-color: #e9e2e2;
+}
