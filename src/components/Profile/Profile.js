@@ -41,9 +41,8 @@ ProfileCard.propTypes = {
 };
 
 ProfileCard.defaultProps = {
-  name: "",
-  tag: "",
-  location: "",
+  name: "Inkognito",
+  location: "USA",
   stats: {
     followers: 0,
     views: 0,

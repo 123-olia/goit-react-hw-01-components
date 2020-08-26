@@ -1,5 +1,4 @@
 import React from "react";
-// import PropTypes from "prop-types";
 import styles from "./Statistics.module.scss";
 
 const Stats = ({ title, stats }) => {
@@ -22,18 +21,8 @@ const Stats = ({ title, stats }) => {
 
 export default Stats;
 
-// Stats.propTypes = {
-//   title: PropTypes.string,
-//   stats: PropTypes.arrayOf({
-//     label: PropTypes.string,
-//     percentage: PropTypes.number,
-//   }),
-// };
-
 Stats.defaultProps = {
-  title: "",
   stats: {
-    label: "",
     percentage: 0,
   },
 };
